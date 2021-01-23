@@ -1,0 +1,24 @@
+{
+    "wrapper_id": "dbi360",
+    "frontend_parent_element": "body",
+    "backend_parent_element": "body",
+    "default_images_per_angle": 24,
+    "rpms": 20,
+    "play_delay": 3,
+    "width": 300,
+    "height": 300,
+    "mouse_move_x": 10,
+    "mouse_move_y": 10,
+    "prases": {
+        "english": {
+            "tilt": "Number Of Views",
+            "upload_file": "Upload a project",
+            "download_product": "Download Product 360 File"
+        },
+        "spanish": {
+            "tilt": "Número de vistas inclinadas",
+            "upload_file": "Subir un proyecto",
+            "download_product": "Descargar archivo Product 360"
+        }
+    }
+}
