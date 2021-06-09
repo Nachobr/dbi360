@@ -5,13 +5,18 @@
     "main": "index.html",
     "scripts": {
         "start": "parcel index.html --open",
-        "build": "parcel build index.html -d public"
+        "build": "parcel build index.html -d public",
+        "dev": "nodemon —exec babel-node server.js"
     },
+    
     "dependencies": {
         "regenerator-runtime": "0.13.7"
     },
     "devDependencies": {
-        "@babel/core": "^7.13.14",
+        "@babel/core": "^7.14.3",
+        "@babel/node": "^7.14.2",
+        "@babel/preset-env": "^7.14.4",
+        "nodemon": "^2.0.7",
         "parcel-bundler": "^1.6.1"
     },
     "keywords": []
