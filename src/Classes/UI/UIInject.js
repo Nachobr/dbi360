@@ -2,7 +2,7 @@ export default class UIInject {
     constructor(parent, wrapper_id) {
         this.app = document.createElement('div')
         this.app.id = wrapper_id
-        this.configInput = this.addConfigInput()
+        
         this.imageInput = this.addImageInput()
         this.viewsInput = this.addViewsInput()
         //Create a New Display (canvas)
